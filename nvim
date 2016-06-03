@@ -11,6 +11,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'fatih/molokai'
 Plug 'tpope/vim-fugitive'
 Plug 'garyburd/go-explorer'
+Plug 'moll/vim-node'
 
 " python
 Plug 'nvie/vim-flake8'
