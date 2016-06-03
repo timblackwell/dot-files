@@ -1,7 +1,7 @@
 [user]
 	name = Tim Blackwell
 	email = timmblackwell@gmail.com
-	signingkey = 53C246B3
+	signingkey = 6C0B8751
 [credential]
 	helper = osxkeychain
 [core]
