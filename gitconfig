@@ -2,8 +2,6 @@
 	name = Tim Blackwell
 	email = timmblackwell@gmail.com
 	signingkey = 6C0B8751
-[credential]
-	helper = osxkeychain
 [core]
 	editor = nvim
 [filter "lfs"]
@@ -41,3 +39,5 @@
     tool = nvimdiff
 [difftool "nvimdiff"]
     cmd = diff_wrapper "$LOCAL" "$REMOTE"
+[url "git@github.com:"]
+	insteadOf = https://github.com/
