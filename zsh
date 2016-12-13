@@ -7,6 +7,8 @@ export ZSH=/Users/timothy.blackwell/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="arrow"
 
+#DEFAULT_USER="timothy.blackwell@holbmac0252"
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -57,8 +59,10 @@ plugins=(brew docker)
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin"
 export GOPATH=$HOME/go
+export GOROOT=$(go env GOROOT)
 export PATH=$GOPATH/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
+export SAINS=$GOPATH/src/github.com/JSainsburyPLC
 
 source $ZSH/oh-my-zsh.sh
 
